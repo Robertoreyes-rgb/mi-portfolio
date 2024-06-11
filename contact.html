@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
+    <title>Portafolio</title>
+
+    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icon font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header id="header">
+		<nav class="navbar navbar-default navbar-sticky">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Inicio</a></li>
+						<li class="active"><a href="about.html">Sobre Mí</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+						<!-- <li><a href="projects.html">Proyectos</a></li>
+						<li><a href="blog.html">Blog</a></li> -->
+						<li class="nav-item mx-0 mx-lg-1">
+							<select id="idioma" class="nav-link py-3 px-0 px-lg-3 rounded">
+								<option value="es">Español</option>
+								<option value="en">Inglés</option>
+							</select>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+    <main id="main">
+        <div class="container">
+
+            <!-- Formulario de contacto -->
+            <!-- Formulario de contacto -->
+            <h2>Formulario de Contacto</h2>
+            <form id="contactForm" action="https://formsubmit.co/robenreyes124@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" class="form-control" id="asunto" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="comments" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form><br><br>
+
+        </div>
+    </main>
+
+    <footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 widget">
+					<div class="widget-body">
+						<p><br>+503 1234 5678<br>Jiquilisco, Usulután, El Salvador.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 widget">
+					<h3 class="widget-title">Contacto</h3>
+					<div class="widget-body">
+						<p class="follow-me-icons">
+							<a target="_blank" href="https://www.linkedin.com/in/roberto-reyes-palomo-645416269/"><i class="fa-brands fa-linkedin"></i></a>
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 widget">
+					<h3 class="widget-title">Correo</h3>
+					<div class="widget-body">
+						<p><a target="_blank" href="mailto:robertoreyes321@outlook.es">robertoreyes321@outlook.es</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/lang.js"></script>
+</body>
+
+</html>
